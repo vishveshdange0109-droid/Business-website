@@ -1,0 +1,756 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  padding: 16px 32px;
+}
+
+video.background-video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 72px;
+}
+
+.navbar h1 {
+  letter-spacing: 13px;
+  margin-left: 72px;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+ul li {
+  cursor: pointer;
+  list-style: none;
+  margin-left: 24px;
+  font-size: 18px;
+  font-weight: 250;
+}
+ul li:hover {
+  color: orangered;
+}
+
+ul li button {
+  background-color: black;
+  color: white;
+  padding: 7px 26px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+}
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000000;
+  padding: 43px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+.hero1 h2 {
+  padding: 10px;
+  align-items: center;
+  font-size: 75px;
+  letter-spacing: 10px;
+  font-weight: 270;
+}
+.hero1 p {
+  margin-top: 12px;
+  font-size: 23px;
+  word-spacing: 8px;
+  font-weight: 250;
+}
+
+.hero2 {
+  width: 100vw;
+  display: flex;
+  position: relative;
+  box-shadow: 0 -50px 100px 50px rgba(0, 0, 0, 190.5);
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: start;
+  display: flex;
+  margin-bottom: 100px;
+}
+.vision {
+  margin-top: 7%;
+  display: flex;
+  gap: 34px;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.vision-text {
+  margin-left: 54px;
+}
+.line {
+  background-color: white;
+  width: 1px;
+  margin-top: 230px;
+  height: 30pc;
+  margin-left: 200px;
+  align-items: center;
+}
+.line2 {
+  margin-top: 45px;
+  width: 3px;
+  height: 9pc;
+  border-radius: 23px;
+  background-color: aliceblue;
+}
+.vision-image {
+  width: 60%;
+  height: 100%;
+}
+.vision-image img {
+  width: 100%;
+  height: 100%;
+}
+.vision-text h4 {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  margin-bottom: 35px;
+}
+.vision-text h2 {
+  font-size: 34px;
+  font-weight: 200;
+  margin-bottom: 34px;
+  letter-spacing: 3px;
+}
+.vision-text p {
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 28px;
+}
+.hero3 {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  box-shadow: 1 -50px 0px 200px white;
+  padding: 20px;
+  text-align: start;
+  margin-bottom: 34px;
+}
+.ser-head {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.ser-head h3 {
+  color: rgb(74, 74, 74);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 64px;
+}
+.ser-head p {
+  letter-spacing: 3px;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.hero3 .ser-line {
+  margin-left: 200px;
+  width: 1px;
+  background-color: black;
+  height: 14pc;
+}
+.hero3 .ser-line2 {
+  width: 2px;
+  background-color: black;
+  height: 132px;
+  margin-top: 90px;
+  border-radius: 23px;
+}
+.auto-dri {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.auto-head {
+  padding: 12px;
+  width: 40%;
+  text-align: left;
+  margin-left: 99px;
+}
+
+.auto-head h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.auto-head p {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #000000;
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 33px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.auto-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auto-img img {
+  max-width: 130%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.auto-head div {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+  width: 160px;
+  border-radius: 13px;
+}
+
+.auto-head button {
+  padding: 9px 15px;
+  color: #000000;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  border-radius: 13px 0px 0px 13px;
+}
+
+.auto-head div img {
+  width: 30px;
+  cursor: pointer;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.auto-head div img:hover {
+  transform: translateX(5px); /* Slight animation to the right */
+}
+.hero4 {
+  width: 100vw;
+  display: flex;
+  position: relative;
+  padding: 20px;
+  align-items: center;
+  text-align: start;
+  margin-bottom: 15px;
+  justify-content: space-evenly;
+}
+.hero4 img {
+  width: 53%;
+}
+.text-4 h1 {
+  line-height: 1.5;
+  margin-bottom: 34px;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.text-4 p {
+  letter-spacing: 1px;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+}
+.text-4 div img {
+  width: 30px;
+  cursor: pointer;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+.text-4 div {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+  width: 160px;
+  border-radius: 13px;
+}
+.text-4 div button {
+  padding: 9px 15px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  border-radius: 13px 0px 0px 13px;
+}
+.WhyAutono {
+  height: 100vh;
+  display: flex;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://static.wixstatic.com/media/c837a6_870aaf57c1d9484a9a6ee57f2465df75~mv2.jpg/v1/fill/w_1383,h_1100,al_r,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_870aaf57c1d9484a9a6ee57f2465df75~mv2.jpg");
+  background-attachment: fixed;
+}
+
+.WhyAutono-container {
+  position: absolute;
+  background-color: black;
+  color: azure;
+  padding: 32px;
+  margin-top: 80px;
+  margin-left: 164px;
+  height: 80vh;
+  width: 60vh;
+  display: flex;
+
+  border-radius: 23px;
+}
+.WhyAutono-container .line1 {
+  width: 1px;
+  height: 95%;
+  background-color: white;
+}
+.WhyAutono-container .line1 div{
+  width: 2px;
+  height: 123px;
+  padding: 1px;
+  margin-top: 56px;
+  border-radius: 12px;
+  background-color: white;
+}
+.WhyAutono-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+}
+
+.WhyAutono-content h1 {
+  line-height: 1.5;
+  margin-bottom: 34px;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.WhyAutono-content p {
+  margin-top: 42px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+}
+.WhyAutono-content button img {
+  width: 30px;
+  cursor: pointer;
+  height: auto;
+  object-fit: contain;
+  margin-left: 12px;
+}
+.WhyAutono-content button {
+  margin-top: 34px;
+  padding: 9px 13px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 13px;
+  width: 180px;
+}
+
+/* =====================================================
+   NEW FEATURES  (only simple properties, same as above)
+   ===================================================== */
+
+/* ---------- BUTTONS ---------- */
+
+/* orange button (hero, cards, popup, banner) */
+.btn-primary {
+  background-color: orangered;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: black;
+  transition: 0.3s ease;
+}
+
+/* outlined button (hero "Explore Experiences") */
+.btn-outline {
+  color: black;
+  padding: 12px 28px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* navbar "Book Now" (written like your "ul li button" rule) */
+ul li button.btn-book {
+  background-color: orangered;
+  color: white;
+}
+
+/* two buttons under the hero text */
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+/* ---------- STATS (black strip with 4 numbers) ---------- */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+.stats strong {
+  display: block;
+  font-size: 46px;
+  font-weight: 300;
+}
+.stats span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* ---------- SAME PADDING FOR THE 4 NEW SECTIONS ---------- */
+.experiences,
+.how,
+.faq,
+.cta-band {
+  padding: 90px 80px;
+}
+
+/* ---------- SAME HEADING STYLE FOR THE 4 NEW SECTIONS ---------- */
+.experiences h2,
+.how h2,
+.faq h2,
+.cta-band h2 {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+/* ---------- EXPERIENCES (3 cards in a row) ---------- */
+.sec-sub {
+  font-size: 19px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.exp-grid {
+  display: flex;
+  gap: 28px;
+}
+.exp-card {
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 13px;
+  padding: 32px;
+}
+.exp-card h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.exp-card p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.exp-card .exp-info {
+  margin: 14px 0;
+}
+
+/* ---------- HOW IT WORKS (3 steps in a row) ---------- */
+.how {
+  background-color: #f4f4f4;
+}
+.how-steps {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.how-steps li {
+  flex: 1;
+  border-top: 1px solid black;
+  padding-top: 22px;
+}
+.step-no {
+  display: block;
+  font-size: 34px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.how-steps h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.how-steps p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.cta-band {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.cta-band p {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+/*-FOOTER-*/
+.site-footer {
+  background-color: black;
+  color: white;
+  padding: 60px 80px 24px 80px;
+}
+.foot-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.foot-grid div {
+  flex: 1;
+}
+.site-footer h4 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+.site-footer p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.news-form {
+  display: flex;
+  gap: 8px;
+}
+.news-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+.news-form button {
+  background-color: orangered;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.foot-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid gray;
+  font-size: 14px;
+  font-weight: 300;
+}
+.foot-bottom a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+
+.float-book {
+  display: none;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 5;
+  background-color: orangered;
+  color: white;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.float-book.show {
+  display: block;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-box {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 36px;
+  width: 440px;
+  max-width: 92%;
+  border-radius: 16px;
+}
+.modal-box h3 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+.modal-note {
+  font-size: 15px;
+  color: orangered;
+}
+.modal-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+.modal-box input,
+.modal-box select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.modal-box .row {
+  display: flex;
+  gap: 12px;
+}
+.modal-box .consent {
+  font-size: 14px;
+  font-weight: 300;
+}
+.modal-box .consent input {
+  width: auto;
+}
+#bk-success p {
+  margin: 12px 0 22px 0;
+  font-size: 17px;
+  font-weight: 300;
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .stats,
+  .exp-grid,
+  .how-steps,
+  .foot-grid {
+    flex-direction: column;
+  }
+  .experiences,
+  .how,
+  .faq,
+  .cta-band,
+  .site-footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
